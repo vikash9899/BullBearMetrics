@@ -1,0 +1,63 @@
+/* Grid Container for All Budget Cards */
+.gridContainer {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+padding: 20px;
+background-color: #f4f4f4;
+}
+
+/* Individual Budget Card */
+.budgetCard {
+background-color: #ffffff;
+border: 1px solid #ddd;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding: 20px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.budgetCard:hover {
+transform: translateY(-5px);
+box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Table Styles */
+.table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.table th {
+background-color: #0070f3;
+color: white;
+padding: 10px;
+text-align: left;
+border: none;
+}
+
+.table td {
+padding: 8px;
+border: 1px solid #ddd;
+text-align: left;
+}
+
+/* Button Style */
+.knowMoreButton {
+display: block;
+width: 100%;
+margin-top: 15px;
+padding: 10px 15px;
+background-color: #0070f3;
+color: white;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+text-align: center;
+transition: background-color 0.3s ease;
+}
+
+.knowMoreButton:hover {
+background-color: #005bb5;
+}
